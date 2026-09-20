@@ -1,0 +1,17 @@
+# 声音素材与产物一律不进仓库
+*.wav
+*.mp3
+*.m4a
+*.flac
+ref/
+out/
+
+# 自己的稿子不进仓库，只留 example
+segments.json
+
+# 环境
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+ckpts/
